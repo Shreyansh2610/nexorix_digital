@@ -1,0 +1,16 @@
+.banner-area4 .banner-content {
+  max-width: 100%;
+  width: 100%;
+}
+
+.text-success-theme {
+    color: var(--theme-color);;
+}
+
+.rounded-1 {
+    border-radius: 1rem;
+}
+
+.bg-dark-2 {
+    background: #161A1E;
+}

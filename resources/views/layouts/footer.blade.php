@@ -1,5 +1,5 @@
 <!-- Start Footer section -->
-    <footer class="two">
+    <footer class="two px-3 px-md-auto">
         <div class="footer-top">
             <div class="container">
                 <div class="row">
@@ -41,9 +41,9 @@
                                     <path
                                         d="M12.9213 3.4249C11.7076 1.33021 9.55162 0.0504883 7.15416 0.00158203C7.05181 -0.000527344 6.9488 -0.000527344 6.84642 0.00158203C4.449 0.0504883 2.29306 1.33021 1.07923 3.4249C-0.161468 5.566 -0.195414 8.13787 0.988414 10.3047L5.94791 19.3823C5.95013 19.3863 5.95236 19.3904 5.95466 19.3944C6.17287 19.7736 6.56377 20 7.00037 20C7.43693 20 7.82783 19.7736 8.04599 19.3944C8.0483 19.3904 8.05052 19.3863 8.05275 19.3823L13.0122 10.3047C14.196 8.13787 14.162 5.566 12.9213 3.4249ZM7.00029 9.06252C5.44947 9.06252 4.18779 7.80084 4.18779 6.25002C4.18779 4.6992 5.44947 3.43752 7.00029 3.43752C8.55111 3.43752 9.81279 4.6992 9.81279 6.25002C9.81279 7.80084 8.55115 9.06252 7.00029 9.06252Z" />
                                 </svg>
-                                Address
+                                Contact  Info
                             </h4>
-                            <a href="#">House 168/170, Avenue 01, Mirpur DOHS, Dhaka Bangladesh</a>
+                            <a href="#"> E-706, Ganesh Glory 11, Jagatpur Road, Off SG Highway, near BSNL Zonal Office, Ahmedabad, Gujarat, 382470</a>
                         </div>
                         <div class="footer-contact mb-40">
                             <h4>
@@ -53,10 +53,10 @@
                                 </svg>
                                 Say Hello
                             </h4>
-                            <a href="mailto:ifo@example.com">ifo@example.com</a><br>
-                            <a href="mailto:info@support.com">info@support.com</a>
+                            <a href="tel:+919876543210">+91 9876543210</a><br>
+                            <a href="mailto:info@support.com">info@nexorix.com</a>
                         </div>
-                        <div class="footer-contact">
+                        {{-- <div class="footer-contact">
                             <h6>See Our New updates</h6>
                             <form>
                                 <div class="form-inner">
@@ -68,23 +68,24 @@
                                     </button>
                                 </div>
                             </form>
-                        </div>
+                        </div> --}}
 
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 d-flex justify-content-lg-start justify-content-sm-end">
                     <div class="footer-widget">
                         <div class="widget-title">
-                            <h4>Our Solutions</h4>
+                            <h4>Quick Link</h4>
                         </div>
                         <div class="menu-container">
                             <ul>
-                                <li><a href="service.html">Web Development</a></li>
-                                <li><a href="service.html">Mobile Development</a></li>
-                                <li><a href="service.html">Cloud Services</a></li>
-                                <li><a href="service.html">Network Connectivity</a></li>
-                                <li><a href="service.html">Data analytics</a></li>
-                                <li><a href="service.html">Software Development</a></li>
+                                <li><a href="{{ route('home') }}">SEC Packages India</a></li>
+                                <li><a href="{{ route('home') }}">Digital Marketing Cost</a></li>
+                                <li><a href="{{ route('home') }}">SEO Outsourcing</a></li>
+                                <li><a href="{{ route('home') }}">SEO Training</a></li>
+                                <li><a href="{{ route('home') }}">Our Location</a></li>
+                                <li><a href="{{ route('home') }}">Contact Us</a></li>
+                                <li><a href="{{ route('home') }}">Blog</a></li>
                             </ul>
                         </div>
                     </div>
@@ -92,16 +93,15 @@
                 <div class="col-lg-2 col-sm-6 d-flex justify-content-lg-center">
                     <div class="footer-widget">
                         <div class="widget-title">
-                            <h4>Company</h4>
+                            <h4>Marketing</h4>
                         </div>
                         <div class="menu-container">
                             <ul>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="case-study.html">Case Study</a></li>
-                                <li><a href="blog.html">News & Article</a></li>
-                                <li><a href="team1.html">Our Team</a></li>
-                                <li><a href="project.html">All Portfolio</a></li>
-                                <li><a href="pricing.html">Pricing Plan</a></li>
+                                <li><a href="{{ route('home') }}">Latest SEO Results</a></li>
+                                <li><a href="{{ route('home') }}">SEO Services</a></li>
+                                <li><a href="{{ route('home') }}">Social Media Marketing</a></li>
+                                <li><a href="{{ route('home') }}">Pay Per Click</a></li>
+                                <li><a href="{{ route('home') }}">ORM</a></li>
                             </ul>
                         </div>
                     </div>
@@ -109,16 +109,15 @@
                 <div class="col-lg-3 col-sm-6 d-flex justify-content-sm-end">
                     <div class="footer-widget">
                         <div class="widget-title">
-                            <h4>Resources</h4>
+                            <h4>Web</h4>
                         </div>
                         <div class="menu-container">
                             <ul>
-                                <li><a href="#">Support Area</a></li>
-                                <li><a href="#">Support Policy</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Career</a></li>
-                                <li><a href="pricing.html">Pricing Plan</a></li>
+                                <li><a href="{{ route('home') }}">Website Work</a></li>
+                                <li><a href="{{ route('home') }}">Website Design</a></li>
+                                <li><a href="{{ route('home') }}">Website Development</a></li>
+                                <li><a href="{{ route('home') }}">Wordpress Development</a></li>
+                                <li><a href="{{ route('home') }}">Branding & Graphics</a></li>
                             </ul>
                         </div>
                     </div>
@@ -131,7 +130,7 @@
                     <div class="col-lg-12">
                         <div class="footer-btn-content">
                             <div class="copyright-area">
-                                <p>©Copyright 2023 <a href="#">Softconic</a> | Design By <a href="https://www.egenslab.com/">Egens Lab</a></p>
+                                <p>©Copyright {{ now()->year }} <a href="#">{{ env('APP_NAME') }}</a> All Rights Reserved || <a href="">Privacy Policy</a> || <a href="">Sitemap</a></p>
                             </div>
                             <div class="footer-social">
                                 <ul>

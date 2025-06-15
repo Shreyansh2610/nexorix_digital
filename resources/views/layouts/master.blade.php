@@ -32,6 +32,7 @@
     <!--  Style CSS  -->
     <link rel="stylesheet" href="{{ asset('assets/css/preloader.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style2.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
 
     @yield('head-section')
 
