@@ -11,7 +11,7 @@
     <meta name="robots" content="noindex, nofollow" />
     <title>@yield('title') - {{ config('app.name') }}</title>
     {{-- <link rel="apple-touch-icon" href="{{ asset('images/ico/apple-icon-120.png') }}"> --}}
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/sm-logo.svg') }}">
 
     <!-- Bootstrap CSS -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -91,7 +91,20 @@
     @yield('content')
     <!-- END: Content-->
 
+    {{-- BEGIN: Reviews --}}
+    <div class="bg-dark py-5">
+        <div class="bg-dark-2 p-3 container d-flex justify-content-between align-items-center ">
+            <div class="d-flex flex-column">
+                <img width="150" height="50" src="{{ asset('assets/img/feature/google.webp') }}" alt="" srcset="">
+                <a class="text-white"><span class="fw-bold"><span class="fs-4">4.9</span>  <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></span>  110 reviews</a>
+            </div>
+            <a href="#" class="btn btn-success">View On Google</a>
+        </div>
+    </div>
+    {{-- END: Reviews --}}
+    @include('layouts.img')
     {{-- Begin: Footer --}}
+
     @include('layouts.footer')
     {{-- End: Footer --}}
 
@@ -131,6 +144,7 @@
     <!-- Custom JS -->
     <script src="{{ asset('assets/js/preloader.js') }}"></script>
     <script src="{{ asset('assets/js/custom.js') }}"></script>
+    <script src="{{ asset('assets/js/scripts.js') }}"></script>
     <!-- END: Theme JS-->
     <!-- BEGIN: Page JS-->
     @yield('page-scripts')

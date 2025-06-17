@@ -13,9 +13,9 @@
 
     <!-- Start Banner section -->
     <div class="banner-area4">
-        <div class="background-text-slider">
+        {{-- <div class="background-text-slider">
             <h2 class="marquee_text">Our agency make your happyness</h2>
-        </div>
+        </div> --}}
         {{-- <div class="scroll-down">
             <a href="#home4-about-section">
                 Scroll Down
@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="banner-content">
-                        <h1>SEO Company in <a href="#">Ahmedabad</a> Driven by Ethics and Transparency</h1>
+                        <h1>SEO Company in <span class="text-success-theme">Ahmedabad</span> Driven by Ethics and Transparency</h1>
                         <p>Forget the rest, we're the Shahenshah of fully managed SEO! Our value-driven approach makes us
                             the Numero Uno choice for businesses across India and outside India. Experience it for yourself
                             and see why {{ env('APP_NAME') }} : Best SEO Company is the most trusted name in SEO!</p>

@@ -14,11 +14,11 @@
             <li class="menu-item-has-children">
                 <a href="#" class="drop-down">Company</a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
-                    <li><a href="service.html">About Us</a></li>
-                    <li><a href="service2.html">Infrastructure</a></li>
-                    <li><a href="service3.html">Certifications</a></li>
-                    <li><a href="service4.html">Our Team</a></li>
-                    <li><a href="service-details.html">Career</a></li>
+                    <li><a href="{{ route('aboutus') }}">About Us</a></li>
+                    {{-- <li><a href="service2.html">Infrastructure</a></li> --}}
+                    <li><a href="{{ route('certifications') }}">Certifications</a></li>
+                    {{-- <li><a href="service4.html">Our Team</a></li> --}}
+                    {{-- <li><a href="service-details.html">Career</a></li> --}}
                 </ul>
             </li>
             <li class="menu-item-has-children">
