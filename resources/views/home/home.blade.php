@@ -1113,15 +1113,6 @@
         </div>
     </div>
 
-    <div class="bg-dark py-5">
-        <div class="bg-dark-2 p-3 container d-flex justify-content-between align-items-center ">
-            <div class="d-flex flex-column">
-                <img width="150" height="50" src="{{ asset('assets/img/feature/google.webp') }}" alt="" srcset="">
-                <a class="text-white"><span class="fw-bold"><span class="fs-4">4.9</span>  <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></span>  110 reviews</a>
-            </div>
-            <a href="#" class="btn btn-success">View On Google</a>
-        </div>
-    </div>
 @endsection
 
 {{-- vendor scripts --}}

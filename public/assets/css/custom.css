@@ -1,3 +1,6 @@
+body {
+    background-color:rgba(var(--bs-dark-rgb));
+}
 .banner-area4 .banner-content {
     max-width: 100%;
     width: 100%;
