@@ -27,9 +27,10 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center mb-5">
                     <div class="banner-content">
-                        <h1>SEO Company in <span class="text-success-theme">Ahmedabad</span> Driven by Ethics and Transparency</h1>
+                        <h1>SEO Company in <span class="text-success-theme">Ahmedabad</span> Driven by Ethics and
+                            Transparency</h1>
                         <p>Forget the rest, we're the Shahenshah of fully managed SEO! Our value-driven approach makes us
                             the Numero Uno choice for businesses across India and outside India. Experience it for yourself
                             and see why {{ env('APP_NAME') }} : Best SEO Company is the most trusted name in SEO!</p>
@@ -44,7 +45,32 @@
 
                     </div>
                 </div>
-
+                <div class="col-lg-12 text-center my-5">
+                    <p class="text-white"><b>500+</b> Happy Clients across <b>15+</b> Countries!</p>
+                    <div class="d-block d-md-flex justify-content-center mt-3">
+                        <div class="mx-3 single-client bg-white rounded-3">
+                            <img class="img-fluid " src="{{ asset('assets/img/feature/top-seo-logo.webp') }}"
+                                alt="">
+                        </div>
+                        <div class="mx-3 single-client bg-white rounded-3">
+                            <img class="img-fluid" src="{{ asset('assets/img/feature/bdaily-logo.webp') }}" alt="">
+                        </div>
+                        <div class="mx-3 single-client bg-white rounded-3">
+                            <img class="img-fluid" src="{{ asset('assets/img/feature/ein.webp') }}" alt="">
+                        </div>
+                        <div class="mx-3 single-client bg-white rounded-3">
+                            <img class="img-fluid" src="{{ asset('assets/img/feature/medium-logo.webp') }}" alt="">
+                        </div>
+                        <div class="mx-3 single-client bg-white rounded-3">
+                            <img class="img-fluid" src="{{ asset('assets/img/feature/xing-new-logo.webp') }}"
+                                alt="">
+                        </div>
+                        <div class="mx-3 single-client bg-white rounded-3">
+                            <img class="img-fluid" src="{{ asset('assets/img/feature/yourstory-logo.webp') }}"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -579,14 +605,16 @@
                         <img class="img-fluid" src="{{ asset('assets/img/feature/medium-logo.webp') }}" alt="">
                     </div>
                     <div class="mx-3 single-client bg-white rounded-3">
-                        <img class="img-fluid" src="{{ asset('assets/img/feature/xing-new-logo.webp') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('assets/img/feature/xing-new-logo.webp') }}"
+                            alt="">
                     </div>
                     <div class="mx-3 single-client bg-white rounded-3">
                         <img class="img-fluid" src="{{ asset('assets/img/feature/yourstory-logo.webp') }}"
                             alt="">
                     </div>
                     <div class="mx-3 single-client bg-white rounded-3">
-                        <img class="img-fluid " src="{{ asset('assets/img/feature/top-seo-logo.webp') }}" alt="">
+                        <img class="img-fluid " src="{{ asset('assets/img/feature/top-seo-logo.webp') }}"
+                            alt="">
                     </div>
                     <div class="mx-3 single-client bg-white rounded-3">
                         <img class="img-fluid" src="{{ asset('assets/img/feature/bdaily-logo.webp') }}" alt="">
