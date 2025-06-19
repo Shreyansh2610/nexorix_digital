@@ -11,7 +11,7 @@
     <meta name="robots" content="noindex, nofollow" />
     <title>@yield('title') - {{ config('app.name') }}</title>
     {{-- <link rel="apple-touch-icon" href="{{ asset('images/ico/apple-icon-120.png') }}"> --}}
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/sm-logo.svg') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('Favnexo.svg') }}">
 
     <!-- Bootstrap CSS -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
