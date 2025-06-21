@@ -23,4 +23,13 @@ class MarketingController extends Controller
         $breadcrumbsPage = 'Best SEO Company in India';
         return view('marketing.seo_service',compact(['breadcrumbs','breadcrumbsPage']));
     }
+
+    public function socialMedia(Request $request) {
+        $breadcrumbs = [
+            ['link' => '/', 'name' => 'Home'],
+            ['name' => 'Social Media Marketing'],
+        ];
+        $breadcrumbsPage = 'Social Media Marketing Agency in Ahmedabad';
+        return view('marketing.social_media',compact(['breadcrumbs','breadcrumbsPage']));
+    }
 }

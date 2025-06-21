@@ -10,3 +10,4 @@ Route::get('/aboutus', [CompanyController::class,'aboutUs'])->name('aboutus');
 Route::get('/certifications', [CompanyController::class,'certifications'])->name('certifications');
 Route::get('/digital-marketing', [MarketingController::class,'digitalMarketing'])->name('digital-marketing');
 Route::get('/seo-service', [MarketingController::class,'seoService'])->name('seo-service');
+Route::get('/social-media-marketing', [MarketingController::class,'socialMedia'])->name('social-media-marketing');

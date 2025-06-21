@@ -27,7 +27,7 @@
                     <li><a href="{{ route('digital-marketing') }}">Digital Marketing</a></li>
                     <li><a href="{{ route('seo-service') }}">SEO Service</a></li>
                     {{-- <li><a href="project-details.html">Ecommerce SEO</a></li> --}}
-                    <li><a href="project-details.html">Social Media Marketing</a></li>
+                    <li><a href="{{ route('social-media-marketing') }}">Social Media Marketing</a></li>
                     {{-- <li><a href="project-details.html">Google Ads</a></li> --}}
                     {{-- <li><a href="project-details.html">ORM</a></li> --}}
                 </ul>
