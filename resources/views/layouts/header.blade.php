@@ -24,22 +24,22 @@
             <li class="menu-item-has-children">
                 <a href="#" class="drop-down">Marketing</a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
-                    <li><a href="project.html">Digital Marketing</a></li>
-                    <li><a href="project-masonary.html">SEO Service</a></li>
-                    <li><a href="project-details.html">Ecommerce SEO</a></li>
+                    <li><a href="{{ route('digital-marketing') }}">Digital Marketing</a></li>
+                    <li><a href="{{ route('seo-service') }}">SEO Service</a></li>
+                    {{-- <li><a href="project-details.html">Ecommerce SEO</a></li> --}}
                     <li><a href="project-details.html">Social Media Marketing</a></li>
-                    <li><a href="project-details.html">Google Ads</a></li>
-                    <li><a href="project-details.html">ORM</a></li>
+                    {{-- <li><a href="project-details.html">Google Ads</a></li> --}}
+                    {{-- <li><a href="project-details.html">ORM</a></li> --}}
                 </ul>
             </li>
             <li class="menu-item-has-children">
                 <a href="#" class="drop-down">Web</a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
-                    <li><a href="team1.html">Web Design</a></li>
+                    {{-- <li><a href="team1.html">Web Design</a></li> --}}
                     <li><a href="team2.html">Web Development</a></li>
                     <li><a href="team3.html">Wordpress Development</a></li>
-                    <li><a href="team3.html">Mobile App Development</a></li>
-                    <li><a href="team3.html">Software Development</a></li>
+                    {{-- <li><a href="team3.html">Mobile App Development</a></li> --}}
+                    {{-- <li><a href="team3.html">Software Development</a></li> --}}
                     <li><a href="team3.html">Branding & Graphics</a></li>
                 </ul>
             </li>

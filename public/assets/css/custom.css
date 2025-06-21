@@ -103,3 +103,8 @@ body {
         width: 100%;
     }
 }
+
+.bg-success-grad {
+    background: #008F58;
+    background: linear-gradient(111deg, rgba(0, 143, 88, 1) 51%, rgba(75, 214, 161, 1) 100%);
+}
